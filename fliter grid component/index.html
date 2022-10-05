@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Filter grid</title>
+</head>
+<body>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> All Projects</button>
+        <button class="btn" onclick="filterSelection('cars')"> HTML,CSS,JS</button>
+        <button class="btn" onclick="filterSelection('animals')"> React JS</button>
+        <button class="btn" onclick="filterSelection('fruits')"> MERN</button>
+        <button class="btn" onclick="filterSelection('colors')"> Fullstack</button>
+      </div>
+      
+      
+      <div class="grid-container">
+        <div class="one filterDiv cars">1</div>
+        <div class="two filterDiv colors fruits">2</div>
+        <div class="three filterDiv cars">3</div>
+        <div class="four filterDiv colors">4</div>
+        <div class="five filterDiv cars animals">5</div>
+        <div class="six filterDiv colors">6</div>
+        <div class="seven filterDiv animals">7</div>
+        <div class="eight filterDiv animals">8</div>
+        <div class="nine filterDiv fruits">9</div>
+        <div class="ten filterDiv fruits animals">10</div>
+        <div class="eleven filterDiv fruits">11</div>
+        
+      </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

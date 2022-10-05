@@ -1,0 +1,272 @@
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+}
+
+.grid-container .one {
+  position: absolute;
+  height: 180px;
+  width: 320px;
+}
+.grid-container .two {
+  position: absolute;
+  margin-left: 20%;
+  height: 320px;
+  width: 320px;
+}
+.grid-container .three {
+  position: absolute;
+  margin-left: 40%;
+  height: 180px;
+  width: 320px;
+}
+.grid-container .four {
+  position: absolute;
+  margin-left: 60%;
+  height: 320px;
+  width: 320px;
+}
+.grid-container .five {
+  position: absolute;
+  margin-top: 11.5%;
+  height: 320px;
+  width: 320px;
+}
+.grid-container .six {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 20%;
+  height: 360px;
+  width: 320px;
+}
+.grid-container .seven {
+  position: absolute;
+  margin-top: 11.5%;
+  margin-left: 40%;
+  height: 320px;
+  width: 320px;
+}
+.grid-container .eight {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 60%;
+  height: 177px;
+  width: 320px;
+}
+.grid-container .nine {
+  position: absolute;
+  margin-top: 31.5%;
+  height: 355px;
+  width: 320px;
+}
+.grid-container .ten {
+  position: absolute;
+  margin-top: 42.5%;
+  margin-left: 20%;
+  height: 170px;
+  width: 320px;
+}
+.grid-container .eleven {
+  position: absolute;
+  margin-top: 31.5%;
+  margin-left: 40%;
+  height: 355px;
+  width: 660px;
+}
+
+@media screen and (max-width: 1478px) {
+  .grid-container {
+    display: grid;
+    height: 100vh;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196f3;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .grid-container .one {
+    position: absolute;
+    height: 80px;
+    width: 150px;
+  }
+  .grid-container .two {
+    position: absolute;
+    margin-left: 20%;
+    height: 150px;
+    width: 150px;
+  }
+  .grid-container .three {
+    position: absolute;
+    margin-left: 40%;
+    height: 80px;
+    width: 150px;
+  }
+  .grid-container .four {
+    position: absolute;
+    margin-left: 60%;
+    height: 150px;
+    width: 150px;
+  }
+  .grid-container .five {
+    position: absolute;
+    margin-top: 11.5%;
+    height: 150px;
+    width: 150px;
+  }
+  .grid-container .six {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 240px;
+    width: 150px;
+  }
+  .grid-container .seven {
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 40%;
+    height: 150px;
+    width: 150px;
+  }
+  .grid-container .eight {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 60%;
+    height: 80px;
+    width: 150px;
+  }
+  .grid-container .nine {
+    position: absolute;
+    margin-top: 31.5%;
+    height: 235px;
+    width: 150px;
+  }
+  .grid-container .ten {
+    position: absolute;
+    margin-top: 51%;
+    margin-left: 20%;
+    height: 75px;
+    width: 150px;
+  }
+  .grid-container .eleven {
+    position: absolute;
+    margin-top: 31.5%;
+    margin-left: 40%;
+    height: 235px;
+    width: 315px;
+  }
+}
+
+@media screen and (max-width: 824px) {
+  .grid-container {
+    display: grid;
+    height: 100vh;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196f3;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .grid-container .one {
+    position: absolute;
+    height: 80px;
+    width: 150px;
+  }
+  .grid-container .two {
+    position: absolute;
+    margin-left: 20%;
+    height: 150px;
+    width: 150px;
+  }
+  .grid-container .three {
+    position: absolute;
+    margin-left: 40%;
+    height: 80px;
+    width: 150px;
+  }
+  .grid-container .four {
+    position: absolute;
+    margin-left: 60%;
+    height: 150px;
+    width: 150px;
+  }
+  .grid-container .five {
+    position: absolute;
+    margin-top: 11.5%;
+    height: 150px;
+    width: 150px;
+  }
+  .grid-container .six {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 240px;
+    width: 150px;
+  }
+  .grid-container .seven {
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 40%;
+    height: 150px;
+    width: 150px;
+  }
+  .grid-container .eight {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 60%;
+    height: 80px;
+    width: 150px;
+  }
+  .grid-container .nine {
+    position: absolute;
+    margin-top: 31.5%;
+    height: 235px;
+    width: 150px;
+  }
+  .grid-container .ten {
+    position: absolute;
+    margin-top: 51%;
+    margin-left: 20%;
+    height: 75px;
+    width: 150px;
+  }
+  .grid-container .eleven {
+    position: absolute;
+    margin-top: 31.5%;
+    margin-left: 40%;
+    height: 235px;
+    width: 315px;
+  }
+}
